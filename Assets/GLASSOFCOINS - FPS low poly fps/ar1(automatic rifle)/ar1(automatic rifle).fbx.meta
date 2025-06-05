@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 7ee290c88843d2c49be639ef4dea8a73
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 2625338228124588777
+    second: ar1(automatic rifle)_hands|Aim_ar1(automatic rifle)
+  - first:
+      74: 913226676028884551
+    second: ar1(automatic rifle)_hands|AimIdle_ar1(automatic rifle)
+  - first:
+      74: 8737870182751485915
+    second: ar1(automatic rifle)_hands|Aimshoot_ar1(automatic rifle)
+  - first:
+      74: -2046685213385648254
+    second: ar1(automatic rifle)_hands|AimWalk_ar1(automatic rifle)
+  - first:
+      74: 5710707406801512959
+    second: ar1(automatic rifle)_hands|draw_ar1(automatic rifle)
+  - first:
+      74: 6702051993268292400
+    second: ar1(automatic rifle)_hands|Fire_ar1(automatic rifle)
+  - first:
+      74: 7626925863702486782
+    second: ar1(automatic rifle)_hands|Idle_ar1(automatic rifle)
+  - first:
+      74: -9026580313545635398
+    second: ar1(automatic rifle)_hands|Reload_ar1(automatic rifle)
+  - first:
+      74: -2591516765460673884
+    second: ar1(automatic rifle)_hands|ReloadNoAmmo_ar1(automatic rifle)
+  - first:
+      74: -8366442059651584214
+    second: ar1(automatic rifle)_hands|Run_ar1(automatic rifle)
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
