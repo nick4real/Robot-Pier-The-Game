@@ -1097,10 +1097,9 @@ MonoBehaviour:
   prefabsPath: Prefabs/Building
   rotationStepAngle: 90
   selectedTile:
-    prefab: {fileID: 8925536184510491718, guid: cf092a87503cfae459fee01f69493ec3,
-      type: 3}
-    offset: {x: 2.5, y: 2.4999998, z: 0}
-    size: {x: 5, y: 5, z: 0.020000579}
+    prefab: {fileID: 0}
+    offset: {x: 0, y: 0, z: 0}
+    size: {x: 0, y: 0, z: 0}
     sizeCalculationOption: 0
     thumbnail: {fileID: 0}
     category:
@@ -1205,7 +1204,7 @@ MonoBehaviour:
   tilePreviewMesh: {fileID: 0}
   tilePreviewMaterial: {fileID: 2100000, guid: a5e04f2e82795b74e9c60d288631a2f5, type: 2}
   replaceExistingTile: 0
-  selectedLayer: {fileID: 3804566841911444280}
+  selectedLayer: {fileID: 3009018484201585693}
   layers:
   - {fileID: 3009018484201585693}
   - {fileID: 3804566841911444280}

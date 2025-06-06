@@ -164,6 +164,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.RobotPier
+    Standalone: com.DefaultCompany.Robot-Pier
   buildNumber:
     Standalone: 0
     VisionOS: 0

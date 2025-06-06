@@ -377,7 +377,7 @@ MonoBehaviour:
   floorSpacing: 1
   gridColor: {r: 1, g: 1, b: 1, a: 1}
   gridSize: 40
-  gridSpacing: 1
+  gridSpacing: 5
   instantiatedTiles:
   - {fileID: 4408200279093272251}
   - {fileID: 2838998712961499396}
@@ -902,8 +902,7 @@ MonoBehaviour:
   - {x: -2.5, y: 5, z: 57.5}
   - {x: -2.5, y: 0, z: -17.5}
   newTile:
-    prefab: {fileID: 5527567560799966288, guid: 026c60f0043b39f4e9b27265f73a764f,
-      type: 3}
+    prefab: {fileID: 0}
     offset: {x: 0, y: 0, z: 0}
     size: {x: 0, y: 0, z: 0}
     sizeCalculationOption: 0
@@ -1026,7 +1025,7 @@ MonoBehaviour:
     category:
       name: 
       color: {r: 1, g: 1, b: 1, a: 1}
-  selectedGameObject: {fileID: 8649629892308242542}
+  selectedGameObject: {fileID: 0}
   tilePreviewMesh: {fileID: 0}
   tilePreviewMaterial: {fileID: 2100000, guid: a5e04f2e82795b74e9c60d288631a2f5, type: 2}
   replaceExistingTile: 0
@@ -6412,12 +6411,6 @@ PrefabInstance:
 --- !u!4 &7476797610158303788 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 600660997258204247, guid: deb2620bc455bbe498d46026f9d3d4e6,
-    type: 3}
-  m_PrefabInstance: {fileID: 8040915651003973243}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8649629892308242542 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1702002912652848661, guid: deb2620bc455bbe498d46026f9d3d4e6,
     type: 3}
   m_PrefabInstance: {fileID: 8040915651003973243}
   m_PrefabAsset: {fileID: 0}
