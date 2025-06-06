@@ -180,6 +180,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5564788307091883527, guid: 23ebe263b777644238c9255b64a2cda9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5564788307091883527, guid: 23ebe263b777644238c9255b64a2cda9,
+        type: 3}
+      propertyPath: whatIsEnemy.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 5564788307091883527, guid: 23ebe263b777644238c9255b64a2cda9,
+        type: 3}
+      propertyPath: timeBetweenShooting
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5781384698577067842, guid: 23ebe263b777644238c9255b64a2cda9,
         type: 3}
       propertyPath: m_Name

@@ -5,6 +5,9 @@ public class DeactivateBlock : MonoBehaviour
     [SerializeField] private GameObject block;
     private void OnTriggerEnter(Collider other)
     {
-        LevelGenerator.SharedInstance.BlockStep();
+        if (other.CompareTag("Player"))
+        {
+            LevelGenerator.SharedInstance.BlockStep();
+        }
     }
 }
