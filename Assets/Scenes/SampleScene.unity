@@ -193,7 +193,7 @@ PrefabInstance:
     - target: {fileID: 5564788307091883527, guid: 23ebe263b777644238c9255b64a2cda9,
         type: 3}
       propertyPath: timeBetweenShooting
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5781384698577067842, guid: 23ebe263b777644238c9255b64a2cda9,
         type: 3}
@@ -204,6 +204,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7746909323168031955, guid: 23ebe263b777644238c9255b64a2cda9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9961947
+      objectReference: {fileID: 0}
+    - target: {fileID: 7746909323168031955, guid: 23ebe263b777644238c9255b64a2cda9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.08715578
+      objectReference: {fileID: 0}
+    - target: {fileID: 7746909323168031955, guid: 23ebe263b777644238c9255b64a2cda9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052646401637404274, guid: 23ebe263b777644238c9255b64a2cda9,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 439
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

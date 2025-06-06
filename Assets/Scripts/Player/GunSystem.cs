@@ -50,8 +50,7 @@ public class GunSystem : MonoBehaviour
 
             if (rayHit.collider.CompareTag("Enemy"))
             {
-                Instantiate(bulletHoleGraphic, rayHit.point, Quaternion.Euler(0, 180, 0));
-                //rayHit.collider.GetComponent<ShootingAi>().TakeDamage(damage);
+                rayHit.collider.GetComponent<KillEnemy>().Kill();
             }
                 
         }
