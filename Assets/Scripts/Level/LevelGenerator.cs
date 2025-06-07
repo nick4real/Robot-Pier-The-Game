@@ -7,7 +7,6 @@ public class LevelGenerator : MonoBehaviour
 {
     public static LevelGenerator SharedInstance;
 
-    
     /// <summary>
     /// Input list of blocks from an Inspector
     /// </summary>
@@ -66,7 +65,7 @@ public class LevelGenerator : MonoBehaviour
         if (block.Enter is null)
             block.blockPrefab.transform.position = Vector3.zero;
         else
-            block.blockPrefab.transform.position = nextBlockPos.position - block.Enter.position;
+            block.blockPrefab.transform.position = nextBlockPos.position - block.Enter.localPosition;
 
         if (block.Exit is null)
             nextBlockPos.position = Vector3.zero;
