@@ -28,6 +28,7 @@ public class LevelGenerator : MonoBehaviour
 
     private List<Block> startBlocks;
     private List<Block> middlewareBlocks;
+    private List<Block> middlewareActiveBlocks;
     private List<Block> endBlocks;
     private Queue<Block> levelQueue;
 
@@ -38,6 +39,7 @@ public class LevelGenerator : MonoBehaviour
         SharedInstance = this;
         startBlocks = new();
         middlewareBlocks = new();
+        middlewareActiveBlocks = new();
         endBlocks = new();
         levelQueue = new();
         
@@ -50,14 +52,24 @@ public class LevelGenerator : MonoBehaviour
 
         GenerateNextBlock(GetRandomItem(startBlocks));
         for (int i = 0; i < 2; i++)
-            GenerateNextBlock(middlewareBlocks[currentBlock++]);
+        {
+            GenerateMiddlewareBlock();
+        }
         
     }
 
     public void BlockStep()
     {
-        GenerateNextBlock(middlewareBlocks[currentBlock++]);
+        GenerateMiddlewareBlock();
         DeactivatePrevBlock();
+    }
+
+    private void GenerateMiddlewareBlock()
+    {
+        var tmp = GetRandomItem(middlewareBlocks);
+        middlewareBlocks.Remove(tmp);
+        GenerateNextBlock(tmp);
+        middlewareActiveBlocks.Add(tmp);
     }
 
     private void GenerateNextBlock(Block block)
@@ -79,6 +91,13 @@ public class LevelGenerator : MonoBehaviour
     private void DeactivatePrevBlock()
     {
         var block = levelQueue.Dequeue();
+
+        if (middlewareActiveBlocks.Contains(block))
+        {
+            middlewareActiveBlocks.Remove(block);
+            middlewareBlocks.Add(block);
+        }
+        
         block.blockPrefab.SetActive(false);
     }
 
